@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url();
+*{
+    font-family: "work sans", arial, sans-serif;
+    /* Lighter normal bold bolder */
+    /* Tambem pode colocar numericamente*/
+    font-weight: bold, 900;
+    font-style: italic;
+    /* shorthand font
+    Font-style -> Font-weight -> Font-size -> Font-family
+    font; X Y Z H (Sem vírgula pelo amor)
+    */
+}
+body{
+   background-image: linear-gradient(to bottom,  #67AAF9, #799EC7);
+    background-attachment: fixed;
+}
+main{
+    background-color: #fff;
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 4px 5px black;
+}
+h1{
+    text-shadow: 0px 1px 1px ;
+}
+p{
+    text-decoration: underline;
+    font: italic normal 14px "work sans", arial, sans-serif;
+    text-align: justify;
+}

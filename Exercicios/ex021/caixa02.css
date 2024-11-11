@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+    font-family: korean;
+    src: url('korean_calligraphy/Korean_Calligraphy.ttf') format('truetype');
+}
+
+header{
+    font-family: korean;
+    background-color: #F5463D;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 60px;
+    box-shadow: 6px 4px 10px #5C4341;
+}
+#cabeça{
+    text-align: center;
+    font-size: 3em;
+}
+main{
+    border: 2px solid black;
+    padding: 1px 6px 0px 6px;
+    border-radius: 20px 0px;
+    text-align: justify;
+}
+footer{
+    background-color: black;
+    color: rgb(244, 248, 248);
+    text-align: center;
+    margin-top: 6px;
+
+}
+aside{
+    text-align: right;
+    font-size: 0.8em;
+}
+a{
+    display: none;
+}
+p{
+    text-decoration: underline;
+}
+footer > p{
+    margin: 0px;
+}
+

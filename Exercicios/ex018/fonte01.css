@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: "Courier Prime";
+    width: 600px;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+h1{
+    font-weight: bold;
+}
+p{
+    font-style: italic;
+}
+main{
+    background-image: linear-gradient(to bottom, #67AAF9, #799EC7);
+    box-shadow: 5px 4px 10px black;
+}

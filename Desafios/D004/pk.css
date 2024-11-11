@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@font-face {
+    font-family: seagram;
+    src: url(fontes/seagram_tfb/Seagram\ tfb.ttf) format('truetype');
+}
+@font-face {
+    font-family: faith;
+    src: url(fontes/faith_collapsing/Faith\ Collapsing.ttf) format('truetype');
+}
+@font-face {
+    font-family: shuriken;
+    src: url(fontes/the_last_shuriken/The\ Last\ Shuriken.ttf) format('truetype');
+}
+
+#prota{
+    text-align: center;
+    font-size: 3em;
+    color: #375C49;
+    font-family: seagram;
+}
+nav{
+    text-align: right;
+}
+header{
+    background-color: #00F576;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 5px #332928;
+}
+.nome{
+    font-size: 1.8em;
+    background-color: #27C272;
+    color: white;
+    text-align: center;
+    font-family: shuriken;
+    padding: 5px;
+    text-decoration: underline;
+}
+main{
+    background-image: linear-gradient( 90deg, #375C49, #398F63);
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 2px 10px 2px 10px;
+    border: 3px solid #27C272;
+    border-top-width: 15px;
+    border-radius: 6px 6px;
+    box-shadow: 4px 4px 4px #29332E;
+}
+.sobre{
+    text-decoration: underline;
+}
+.para{
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+
+}
+.link{
+    margin-left: 10px;
+    margin-right: 10px;;
+}
+.link:hover{
+box-shadow: 3px 3px 2px #29332E;
+}
+.ancora{
+    color: #375C49;
+    text-decoration: none;
+}
+.ancora:visited{
+    text-decoration: none;
+    color: #375C49;
+}
+.imagem{
+    text-align: center;
+
+}
+footer{
+    margin: 14px 12px 2px 12px;
+    background-color: #00F576;
+    border-radius: 20px;
+    padding: 5px;
+    outline: 2px solid #375C49;
+    text-align: center;
+}
+footer > p{
+    text-align: center;
+}

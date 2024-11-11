@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+a:hover:visited {
+    text-decoration: overline;
+}
+a:active{
+    color: blue;
+}
+a::after{
+   content: '  \002708';
+   color: black;
+}
+.perigoso::after{
+    content: ' \0026A0';
+}

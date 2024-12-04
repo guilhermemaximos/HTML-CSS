@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@font-face {
+    font-family: cordel;
+    src: url(fontes/eldes_cordel/EldesCordel-Demo.otf) format("opentype");
+}
+
+:root{
+    --cor01: #EB832B;
+    --cor02: #643BEB;
+    --cor03: #3BEB45;
+    --cor04: #9E9DA3;
+    
+    --fonte-central: 'Yellowtail', cursive;
+    --fonte-titulo: 'cordel', impact, sans-serif;
+}
+

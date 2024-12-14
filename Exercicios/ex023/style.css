@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table{
+    width: 800px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+td{
+    padding: 8px;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+.number{
+    text-align: right;
+}
+tfoot td{
+    border: none;
+}

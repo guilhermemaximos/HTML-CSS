@@ -4,6 +4,21 @@ table{
     width: 800px;
     border-collapse: collapse;
     border: 2px solid black;
+    position: relative;
+}
+thead{
+    background-color:black;
+    color: White;
+    padding: 15px;
+    font-size: 1.4em;
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: black;
+}
+tbody > tr:nth-child(2n) {
+    background-color: aquamarine;
 }
 td{
     padding: 8px;
@@ -15,6 +30,7 @@ th{
 .number{
     text-align: right;
 }
-tfoot td{
-    border: none;
+tfoot{
+    background-color: black;
+    color: white;
 }

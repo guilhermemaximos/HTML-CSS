@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 700px;
+            position: relative;
+        }
+        td,th {
+            border: 1px solid black;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(41, 3, 145);
+            color: white;
+            text-align: center;
+            font-size: 1.5em;
+            padding: 10px
+        }
+        td{
+            padding: 5px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: aqua;
+        }
+        tbody th{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Animes Preferidos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="col">Animes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="row">Meninas</th>
+                <td>Julia Azevedo</td>
+                <td>Jujutsu Kaisen</td>
+                <td>Solo Leveling</td>
+                <td>Toradora</td>
+            </tr>
+            <tr>
+                
+                <td>Beatriz Cerqueira</td>
+                <td>Boku no Hero</td>
+                <td>Dragon Ball</td>
+                <td>Hunter x Hunter</td>
+            </tr>
+            <tr>
+                
+                <td>Veridiele Almeida</td>
+                <td>Skip and Loafer</td>
+                <td>Sailor Moon</td>
+                <td>Mirai Nikki</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="row">Meninos</th>
+                <td>Daniel Góes</td>
+                <td>Dandadan</td>
+                <td>Kimetsu no Yaiba</td>
+                <td>Nanatsu no Taizai</td>
+            </tr>
+            <tr>
+                
+                <td>Arthur Nobre</td>
+                <td>One Piece</td>
+                <td>Dandadan</td>
+                <td>DXD</td>
+            </tr>
+            <tr>
+                
+                <td>João Pedro</td>
+                <td>Dragon Ball</td>
+                <td>Tonikawa</td>
+                <td>Inazuma Eleven</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="row">Sigmas</th>
+                <td>José Guilherme</td>
+                <td>Tower of God</td>
+                <td>Shingeki no Kyojin</td>
+                <td>Fate/Zero</td>
+            </tr>
+            <tr>
+                <td>Lucas Cerqueira</td>
+                <td>Solo Leveling</td>
+                <td>Blue Lock</td>
+                <td>Black Clover</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
